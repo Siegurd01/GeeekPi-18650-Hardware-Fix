@@ -1,4 +1,4 @@
-# GeeekPi UPS restore on power loss feature costs almost nothing fix with 555 timer (unofficial)
+# Unofficial GeeekPi UPS restore on power loss feature fix with 555 timer with costs almost nothing
 Recently I was searching the UPS for RPi 4B and all cheap UPS's (<3$) did not function as an uninterruptible power supply but function as interruptible power supply :) with was sad.
 Then I found [GeeekPi 18650](https://aliexpress.ru/item/33011106536.html?spm=a2g0o.productlist.0.0.2c3b4bb5S8H6NC&algo_pvid=a5cdb866-c0a1-4a2b-a3bd-09a6f57ff75d&algo_expid=a5cdb866-c0a1-4a2b-a3bd-09a6f57ff75d-0&btsid=0b8b036316076217905251854ea032&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_&sku_id=67157312088) and it works like a charm:
 
