@@ -16,7 +16,11 @@ Button has 2 function:
 
 The main task was to find the pulse length so that it would turn on the board and, at same time, would not turn it off with periodic repetition.
 
-![](https://github.com/Siegurd01/GeeekPi-18650-Hardware-Fix/blob/main/photo/Oscill.jpg)
+![]()
+
+<p align="center">
+  <img width="100" height="100" src="https://github.com/Siegurd01/GeeekPi-18650-Hardware-Fix/blob/main/photo/Oscill.jpg">
+</p>
 
 Channel 1 is the test impulse and chanel 2 is Vout. So board wake up 830 milliseconds after impulse come.
 It turned out that the time of ~69 milliseconds with ~1 sec period for the LOW pulse was enough.
