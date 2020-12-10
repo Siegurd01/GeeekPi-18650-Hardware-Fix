@@ -17,6 +17,7 @@ The main task was to find the pulse length so that it would turn on the board an
 Channel 1 is the test impulse and chanel 2 is Vout. So board wake up 830 milliseconds after impulse come.
 It turned out that the time of ~69 milliseconds with ~1 sec period for the LOW pulse was enough.
 So I created cheme of 555 timer with [online calculator](https://ohmslawcalculator.com/555-astable-calculator) (you can use any of them) with the folowing RC setup:
+
 ![](https://github.com/Siegurd01/GeeekPi-18650-Hardware-Fix/blob/main/photo/555%20calc.jpg)
 
 To generate such impulses
