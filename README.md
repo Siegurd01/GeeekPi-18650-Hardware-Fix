@@ -7,7 +7,8 @@ Then I found [GeeekPi 18650](https://aliexpress.ru/item/33011106536.html?spm=a2g
 </p>
 
 Except for 1 moment. It does not have a power-on restore function. You must press the button every time the UPS turns off (battery discharge). Therefore, you cannot use this UPS for a stand-alone project.
-So I decided make a short fix of this problem. (Of Course I wrote to developers with the please too add this feature (upgrading onboard Nuvoton microcontroller firmware should do the trick) but have no response). 
+So I decided make a short fix of this problem. (Of Course I wrote to developers with the please to add this feature (upgrading onboard Nuvoton microcontroller firmware should do the trick) but have no response. 
+
 The solution I found was to add 555 timer with will generate impulses for imitating the button pressing.
 
 Button has 2 function:
