@@ -13,4 +13,4 @@ Button has 2 function:
  * long pressing - power off 
 
 The main task was to find the pulse length so that it would turn on the board and, at same time, would not turn it off with periodic repetition.
-It turned out that the time of 63 milliseconds with 1 sec period for the LOW pulse was enough.
+It turned out that the time of ~69 milliseconds with 1 sec period for the LOW pulse was enough.
