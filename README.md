@@ -30,4 +30,5 @@ So I created scheme of 555 timer with [online calculator](https://ohmslawcalcula
 
 ![](https://github.com/Siegurd01/GeeekPi-18650-Hardware-Fix/blob/main/photo/scheme1.jpg)
 
-You can use own button with fixation on H2 pins for power off the timer and board.
+* H1 pins are for impulses (H1_1wire) connects to button pin.
+* You can use own button with fixation on H2 pins for power off the timer and board.
