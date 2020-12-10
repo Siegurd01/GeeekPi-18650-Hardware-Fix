@@ -1,7 +1,7 @@
 # GeeekPi UPS restore on power loss feature fix with 555 timer
 Recently I was searching the UPS for RPi 4B and all cheap UPS's (<3$) did not function as an uninterruptible power supply but function as interruptible power supply :) with was sad.
 Then I found GeeekPi 18650 and it works like a charm:
-![one](https://github.com/Siegurd01/GeeekPi-18650-Hardware-Fix/blob/main/photo/UPS.jpg "two")
+![](https://github.com/Siegurd01/GeeekPi-18650-Hardware-Fix/blob/main/photo/UPS.jpg)
 
 
 Except for 1 moment. It does not have a power-on restore function. You must press the button every time the UPS turns off (battery discharge). Therefore, you cannot use this UPS for a stand-alone project.
@@ -13,4 +13,10 @@ Button has 2 function:
  * long pressing - power off 
 
 The main task was to find the pulse length so that it would turn on the board and, at same time, would not turn it off with periodic repetition.
-It turned out that the time of ~69 milliseconds with 1 sec period for the LOW pulse was enough.
+![](https://github.com/Siegurd01/GeeekPi-18650-Hardware-Fix/blob/main/photo/Oscill.jpg)
+Channel 1 is the test impulse and chanel 2 is Vout. So board wake up 830 milliseconds after impulse come.
+It turned out that the time of ~69 milliseconds with ~1 sec period for the LOW pulse was enough.
+So I created cheme of 555 timer with [online calculator](https://ohmslawcalculator.com/555-astable-calculator) (you can use any of them) with the folowing RC setup:
+![](https://github.com/Siegurd01/GeeekPi-18650-Hardware-Fix/blob/main/photo/555%20calc.jpg)
+
+To generate such impulses
