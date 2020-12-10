@@ -26,7 +26,7 @@ So I created scheme of 555 timer with [online calculator](https://ohmslawcalcula
 
 ![](https://github.com/Siegurd01/GeeekPi-18650-Hardware-Fix/blob/main/photo/555%20calc.jpg)
 
-The schematic and wiring:
+## The schematic and wiring:
 
 ![](https://github.com/Siegurd01/GeeekPi-18650-Hardware-Fix/blob/main/photo/scheme1.jpg)
 
