@@ -23,5 +23,4 @@ So I created cheme of 555 timer with [online calculator](https://ohmslawcalculat
 
 The shematic:
 
-![](https://github.com/Siegurd01/GeeekPi-18650-Hardware-Fix/blob/main/photo/scheme.jpg )
 
