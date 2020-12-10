@@ -19,7 +19,7 @@ The main task was to find the pulse length so that it would turn on the board an
 ![]()
 
 <p align="center">
-  <img width="100" height="100" src="https://github.com/Siegurd01/GeeekPi-18650-Hardware-Fix/blob/main/photo/Oscill.jpg">
+  <img width="800" height="600" src="https://github.com/Siegurd01/GeeekPi-18650-Hardware-Fix/blob/main/photo/Oscill.jpg">
 </p>
 
 Channel 1 is the test impulse and chanel 2 is Vout. So board wake up 830 milliseconds after impulse come.
